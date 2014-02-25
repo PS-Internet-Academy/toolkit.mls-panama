@@ -1,0 +1,30 @@
+#navibar{
+    border-bottom: 1px solid #DF7401;
+    bottom: 33px;
+    position: relative;
+}
+#navibar #nav li a{
+    color: #848484;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner{
+    background-color: transparent;
+    box-shadow: none;
+    background-image: none;
+}
+.navbar-fixed-top, .navbar-fixed-bottom{    
+    position: relative;
+}
+.navbar .nav .active > a, .navbar .nav .active > a:hover{
+    background-color: transparent;
+}
+.navbar .nav{
+    float:right;
+    margin-right: 5%;
+}
+#navibar li.active{
+    border-bottom: 5px solid #DF7401;    
+}

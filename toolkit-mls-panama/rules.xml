@@ -7,7 +7,7 @@
     >
     
     <theme 
-        href="base.html" 
+        href="toolkit.mls-panama/mls-panama-base.html" 
         css:if-content="#visual-portal-wrapper"
     />
       
@@ -68,6 +68,7 @@
     <append css:theme=".footer" css:content="div#visual-portal-wrapper > div.row > script"/>
 
     <xi:include href="facetednavigation-rules.xml"/>
+    <xi:include href="toolkit.mls-panama/panama-rules.xml"/>
     <append css:theme="#site-scripts" css:content="#portal-footer-wrapper > div > script"/>
     </rules>
 </rules>

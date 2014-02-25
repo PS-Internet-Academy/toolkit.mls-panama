@@ -208,7 +208,7 @@ input[type="button"]:focus{
     width:auto;
 }
 #portal-breadcrumbs {
-    display:none;
+    display:block;
 }
 #commenting legend {
     padding:0;
