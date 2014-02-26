@@ -42,7 +42,7 @@
     />
     
     <replace
-        css:theme-children="div#footer-wrapper"
+        css:theme-children="div#fullfooter"
         css:content="div#portal-footer"
     />   
     
