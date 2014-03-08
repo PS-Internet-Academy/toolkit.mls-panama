@@ -1,0 +1,651 @@
+#menu-bar-first #portal-languageselector .language-es a, #menu-bar-first #portal-languageselector .language-en a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #848484;
+    margin-left: -21%;
+}
+ul#portal-personaltools{
+    height: 0;
+}
+#logo-banner span{
+    font-size: 36px;
+    margin-left: -0.7%;
+    font-family: 'Roboto', sans-serif;
+}
+.portaltype-document #featurenavi{
+    height: 27%;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    left: 2%;
+}
+.userrole-anonymous ul#portal-languageselector{
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-top: -1px;
+    padding-bottom: 0;
+    padding-top: 0;
+    
+}
+#menu-bar-first{
+    z-index: 5; 
+}
+.portaltype-document #portal-languageselector{
+    float: left;
+    width: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-left: 10px;
+    margin-top: -1px;
+}
+ul#portal-languageselector, #portal-personaltools{
+    float: left;
+    width: auto;
+}
+#portal-personaltools{
+    border-right: 1px solid #DF7401;
+    border-radius: 0;
+    margin: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.template-folder_listing #featurenavi{
+    display: none;
+}
+.template-overview-controlpanel #featurenavi{
+    display: none;
+}
+.userrole-anonymous #menu-bar-first{
+    position: absolute;
+    top: 2%;
+    z-index: 5; 
+}
+#menu-bar-first a.login{
+    float: left;
+    margin-top: -1px;
+    color: #848484;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    border-right: 1px solid #DF7401;
+    padding: 0 10px 0 10px;
+}
+#menu-bar-first a.sign-up{
+    float: left;
+    margin-top: -1px;
+    color: #848484;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    border-right: 1px solid #DF7401;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#portal-header #portal-personaltools dd a:hover{
+    color: #000000;
+}
+.userrole-anonymous #anon-personalbar{
+    display:none;    
+}
+#portal-personaltools #anon-personalbar a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #848484;
+}
+#portal-personaltools .actionMenuHeader #user-name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #848484;
+}
+#menu-bar-first #portal-languageselector .language-en, #menu-bar-first #portal-languageselector .language-es{
+    display: none;
+}
+#globalwrapper.site-es #menu-bar-first #portal-languageselector .language-en, #globalwrapper.site-en #menu-bar-first #portal-languageselector .language-es{
+    display: block;
+}
+#navibar{
+    border-bottom: 1px solid #DF7401;
+    position: relative;
+}
+#featurenavi li{  
+    float: left;
+    height: 100%;
+    background-image: linear-gradient(#E1E0DE, #DEDEDB, #959593);
+    border-left: 1px solid #FFFFFF;
+    padding-top: 4px;
+    text-align: -moz-center;
+}
+#featurenavi li .text{
+    text-align: center;
+}
+#featurenavi li .text a{
+    color: #000000;
+    font-family: 'Quattrocento',serif;
+}
+#portal-column-content{
+    margin-top: 40px;    
+}
+#navibar #nav li a{
+    color: #848484;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 25px;
+}
+#portal-personaltools dt.actionMenuHeader a:after{
+    content: none;
+}
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner{
+    background-color: transparent;
+    box-shadow: none;
+    background-image: none;
+}
+.navbar-fixed-top, .navbar-fixed-bottom{    
+    position: relative;
+}
+.navbar .nav .active > a, .navbar .nav .active > a:hover{
+    background-color: transparent;
+}
+.navbar .nav{
+    float:right;
+    margin-right: 5%;
+}
+#navibar li.active{
+    border-bottom: 5px solid #DF7401;    
+}
+
+/*Doormat*/
+#portal-colophon a{
+    float: left;
+}
+.doormatSection p img.image-inline:first{
+    margin-left: 1%;
+}
+.position-0 .row{
+    width: 100%;    
+}
+#globalwrapper .cell .doormatSection .doormatSectionBody .doormattitle{
+    font-family: 'Duru Sans', sans-serif;
+    font-weight:bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.column-0 .doormatSectionBody:last-child p{
+    bottom: 30%;
+    position: relative;
+    text-align: right;
+}
+.column-2 .doormatSectionBody:last-child p{
+    bottom: 30%;
+    position: relative;
+    text-align: right;
+}
+.column-2 dl{
+    padding-top: 10%;    
+}
+#doormat-container.columns-3 .doormatColumn.column-2{   
+    padding-top: 13px;
+}
+#doormat-container p{
+    margin: 0;
+}
+#doormat-container{
+    float: right;
+    left: -3%;
+    position: relative;
+    width: 88%;
+    border-bottom: 1px solid #000000;
+}
+#portal-siteactions{
+    float: right;
+    margin-right: 3%;
+    position: absolute;
+    padding-bottom: 0;
+}
+.doormatSection .doormatSectionBody p{
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.doormatSection .doormatSectionBody p img[title="twitter.png"]{
+    margin-left: 5%;
+}
+.doormatSection .doormatSectionBody p img[title="facebook.png"]{
+    position: relative;
+    top: -18%;
+}
+#footer-wrapper #footerbg .footer-color1{
+    background:radial-gradient(#FACC2E 5px, #FF8000 550px) repeat scroll 0 0 #FF0000;
+    float: left;
+    height: 100%;
+    position: absolute;
+    width: 70%;
+}
+#footer-wrapper #footerbg .footer-color2{
+    background:radial-gradient(#FACC2E 5px, #FF8000 550px) repeat scroll 0 0 #FF0000;
+    float: right;
+    height: 100%;
+    position: absolute;
+    right: -4%;
+    width: 50%;
+}
+.footer{
+    position: relative;
+    overflow: hidden;
+}
+img.image-left, img.image-right, .captioned img{
+    border: 0 none;
+}
+#menu-bar-first{    
+}
+@media (min-width: 1200px){
+    .userrole-anonymous #menu-bar-first{
+        position: absolute;
+        left: 71%;
+    }
+    #menu-bar-first{
+        left: 62.4%;
+        position: absolute;
+        top: 1.9%;
+        min-width: 366px;
+    }
+    #globalwrapper.site-es #portal-header #portal-languageselector .language-en, #globalwrapper.site-en #portal-header #portal-languageselector .language-es{
+
+    }
+    .portaltype-document #portal-personaltools .actionMenuHeader{
+        width: 100%;
+    }
+    #portal-header #portal-languageselector .language-es a, #portal-header #portal-languageselector .language-en a{
+        margin-left: -21%;
+    }
+    #featurenavi li .text a{
+        width: 100%;
+        line-height: 41px;
+    }
+    #featurenavi li{
+        width: 19%;
+    }
+    .portaltype-document #featurenavi{
+        position: absolute;
+        top: 569px;
+    }
+    #box .carousel .carousel-banners, .carousel-banner, .carousel-banner img{
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    #portal-header #portal-logo img{
+        width: 95%;
+    }
+    #footer-wrapper #footerbg .footer-color2{
+        border-top-right-radius: 71%;
+    }
+    #portal-siteactions{
+        left: 69.5%;
+        width: 22%;
+        top: 90.5%;
+    }
+    #portal-colophon a{
+        margin-bottom: 1.5%;
+        margin-top: 1%;
+    }
+    #doormat-container.columns-3 .doormatColumn.column-2{
+        width: 27%;    
+    }
+}
+@media (min-width: 980px) and (max-width:1199px){
+    ul#portal-languageselector, #portal-personaltools{
+        margin-top: 0.9%;
+        width: 6.6%;
+    }
+    #menu-bar-first{
+        left: 62.4%;
+        position: absolute;
+        top: 1.9%;
+        min-width: 366px;
+    }
+    #globalwrapper.site-es #portal-header #portal-languageselector .language-en, #globalwrapper.site-en #portal-header #portal-languageselector .language-es{
+
+    }
+    .portaltype-document #portal-personaltools .actionMenuHeader{
+        width: 100%;
+    }
+    #portal-personaltools{
+        border-radius: 0;
+        border-right: 1px solid #DF7401;
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+        min-width: 53px;
+    }
+    ul#portal-languageselector{
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    #portal-header #portal-languageselector .language-es a, #portal-header #portal-languageselector .language-en a{
+        margin-left: -21%;
+    }
+    #featurenavi li .text a{
+        width: 100%;
+        line-height: 41px;
+    }
+    #featurenavi li{
+        width: 19%;
+    }
+    .portaltype-document #featurenavi{
+        position: absolute;
+        top: 566px;
+    }
+    #box .carousel .carousel-banners, .carousel-banner, .carousel-banner img{
+        width: 100% !important;
+    }
+    #portal-header #portal-logo img{
+        width: 95%;
+    }
+    #footer-wrapper #footerbg .footer-color2{
+        border-top-right-radius: 0%;
+    }
+    #portal-siteactions{
+        left: 69.5%;
+        width: 22%;
+        top: 93%;
+    }
+    #portal-colophon a{
+        margin-bottom: 1.5%;
+        margin-top: 1%;
+    }
+    #doormat-container.columns-3 .doormatColumn.column-2{
+        width: 27%;    
+    }
+}
+@media (min-width: 768px) and (max-width: 979px){
+    #featurenavi li .text a{
+        width: 100%;
+        line-height: 41px;
+    }
+    #featurenavi li{
+        width: 19%;
+    }
+    #portal-personaltools{
+        border-radius: 0;
+        border-right: 1px solid #DF7401;
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+        min-width: 53px;
+        float: left;
+    }
+    ul#portal-languageselector{
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+        float: left;
+    }
+    #menu-bar-first{
+        left: 40.4%;
+        position: absolute;
+        top: 1.9%;
+        min-width: 366px;
+    }
+    #globalwrapper.site-es #portal-header #portal-languageselector .language-en, #globalwrapper.site-en #portal-header #portal-languageselector .language-es{
+
+    }
+    .portaltype-document #portal-personaltools .actionMenuHeader{
+        width: 100%;
+        padding-right: 8px;
+    }
+    #portal-header #portal-languageselector .language-es a, #portal-header #portal-languageselector .language-en a{
+        margin-left: -21%;
+    }
+    #featurenavi li .text a{
+        width: 100%;
+        line-height: 41px;
+    }
+    #featurenavi li{
+        width: 19%;
+    }
+    .portaltype-document #featurenavi{
+        position: absolute;
+        top: 586px;
+    }
+    #box .carousel .carousel-banners, .carousel-banner, .carousel-banner img{
+        width: 100% !important;
+    }
+    #portal-header #portal-logo img{
+        width: 95%;
+    }
+    #portal-siteactions{
+        left: 63.5%;
+        width: 28%;
+        top: 94.1%;
+    }
+    #portal-colophon a{
+        margin-bottom: 1.5%;
+        margin-top: 1%;
+    }
+    .doormatSection .doormatSectionBody p img[title="twitter.png"]{
+        margin-top: 9%;
+    }
+    #doormat-container.columns-3 .doormatColumn.column-2{
+        width: 27%;    
+    }
+}
+@media (min-width: 600px) and (max-width: 767px){
+    #featurenavi li .text a{
+        width: 100%;
+        line-height: 25px;
+    }
+    #featurenavi li{
+        width: 19%;
+    }
+    #portal-personaltools{
+        border-radius: 0;
+        border-right: 1px solid #DF7401;
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+        min-width: 53px;
+    }
+    #featurenavi li .text{
+        max-width: 77px;
+    }
+    ul#portal-languageselector{
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    #menu-bar-first{
+        left: 23.4%;
+        position: absolute;
+        top: 1.9%;
+        width: 386px;
+    }
+    #globalwrapper.site-es #portal-header #portal-languageselector .language-en, #globalwrapper.site-en #portal-header #portal-languageselector .language-es{
+
+    }
+    .portaltype-document #portal-personaltools .actionMenuHeader{
+        width: 100%;
+        padding-right: 8px;
+    }
+    #portal-header #portal-languageselector .language-es a, #portal-header #portal-languageselector .language-en a{
+        margin-left: -21%;
+    }
+    #featurenavi li .text a{
+        width: 100%;
+        line-height: 17px;
+    }
+    .portaltype-document #featurenavi{
+        position: absolute;
+        top: 585px;
+    }
+    #box .carousel .carousel-banners, .carousel-banner, .carousel-banner img{
+        width: 100% !important;
+    }
+    #portal-header #portal-logo img{
+        width: 95%;
+    }
+    #portal-siteactions{
+        left: 55.5%;
+        width: 32%;
+        top: 95.7%;
+    }
+    #portal-colophon a{
+        margin-bottom: 1.5%;
+        margin-top: 1%;
+    }
+    #doormat-container.columns-3 .doormatColumn.column-2{
+        width: 22%;    
+    }
+}
+@media (min-width: 460px) and (max-width: 599px){
+     #featurenavi li .text a{
+        width: 100%;
+        line-height: 17px;
+    }
+    #featurenavi li .text{
+        max-width: 77px;
+    }
+    #featurenavi li{
+        width: 19%;
+    }
+    #portal-personaltools{
+        border-radius: 0;
+        border-right: 1px solid #DF7401;
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+        min-width: 53px;
+    }
+    ul#portal-languageselector{
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    #portal-personaltools{
+        border-radius: 0;
+        border-right: 1px solid #DF7401;
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+        min-width: 53px;
+    }
+    ul#portal-languageselector{
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    #menu-bar-first{
+        left: 11.4%;
+        position: absolute;
+        top: 1.9%;
+        width: 380px;
+    }
+    #globalwrapper.site-es #portal-header #portal-languageselector .language-en, #globalwrapper.site-en #portal-header #portal-languageselector .language-es{
+
+    }
+    .portaltype-document #portal-personaltools .actionMenuHeader{
+        width: 100%;
+        padding-right: 8px;
+    }
+    ul#portal-languageselector, #portal-personaltools{
+        
+    }
+    #portal-header #portal-languageselector .language-es a, #portal-header #portal-languageselector .language-en a{
+        margin-left: -21%;
+    }
+    #featurenavi li .text a{
+        width: 100%
+    }
+    .portaltype-document #featurenavi{
+        position: absolute;
+        top: 584px;
+    }
+    #box .carousel .carousel-banners, .carousel-banner, .carousel-banner img{
+        width: 100% !important;
+    }
+    #portal-header #portal-logo img{
+        width: 95%;
+    }
+    #portal-siteactions{
+        left: 55.5%;
+        width: 32%;
+        top: 95.7%;
+    }
+    #portal-colophon a{
+        margin-bottom: 1.5%;
+        margin-top: 1%;
+    }
+    #doormat-container.columns-3 .doormatColumn.column-2{
+        width: 22%;    
+    }
+}
+@media (max-width: 459px){
+    #featurenavi li .text{
+        max-width: 72px;
+    }
+    #portal-header #portal-logo img{
+        width: 100%;
+        left: 35%;
+        position: relative;
+        padding-top: 20px;
+        margin-bottom: -21%;
+    }
+    #logo-banner span{
+        display: none;
+    }
+    #featurenavi li .text a{
+        width: 100%;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    #featurenavi li{
+        width: 32%;
+    }
+    .portaltype-document #featurenavi{
+        width: 96%;
+        margin-right: 2%;
+        margin-left : 2%;
+        position: absolute;
+        top: 558px;
+    }
+    #box .carousel .carousel-banners, .carousel-banner, .carousel-banner img{
+        width: 100% !important;
+    }
+    #portal-siteactions{
+        left: 5.8%;
+        width: 85%;
+        top: 98.0%;
+    }
+    #portal-colophon a{
+        margin-bottom: 20.5%;
+        margin-top: 1%;
+        margin-left: 8%;
+    }
+    #doormat-container.columns-3 .doormatColumn.column-2{
+        width: 19%;    
+    }
+    #portal-personaltools{
+        border-radius: 0;
+        border-right: 1px solid #DF7401;
+        margin: auto auto auto 2%;
+        padding-bottom: 0;
+        padding-top: 0;
+        min-width: 53px;
+    }
+    ul#portal-languageselector{
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    #menu-bar-first{
+        left: -1.6%;
+        position: absolute;
+        top: 1.9%;
+        width: 239px;
+    }
+    .userrole-anonymous #menu-bar-first{
+        position: absolute;
+        left: 2.4%;
+        width: 221px;
+    }
+}
