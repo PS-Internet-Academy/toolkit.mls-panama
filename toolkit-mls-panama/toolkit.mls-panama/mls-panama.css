@@ -1,3 +1,6 @@
+.template-listing-detail #content{
+    border: 1px solid #c4c4c4;
+}
 #menu-bar-first #portal-languageselector .language-es a, #menu-bar-first #portal-languageselector .language-en a{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -245,32 +248,108 @@ img.image-left, img.image-right, .captioned img{
     color: #FF8000;
 } 
 #content .listing{
-    background-color: #FBF2EF;
-    width: 100%;
+    background-color: #E6E6E6;
 }
-#content h1.documentFirstHeading{
+.template-listing-detail #content .listing p a{
+    
+}
+#globalwrapper.template-listing-detail #portal-column-two .portletWrapper .portletAgentInformation{
+    background-color: #E6E6E6;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    width: 95%;
+    border: 1px solid #c4c4c4;
+}
+#globalwrapper.template-listing-detail #portal-column-two .portletWrapper .portletAgentContact{
+    background-color: #E6E6E6;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    width: 95%;
+    border: 1px solid #c4c4c4;
+}
+#globalwrapper.template-listing-detail #portal-column-two .portletWrapper .portletAgentContact .portletHeader{
+    background-color: #E6E6E6;
     border-bottom: 1px dashed #BDBDBD;
-    padding: 20px;
     color: #FF8000;
+    font-size: 18px;
+    margin-left: 11px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    font-weight: normal;
+    width: 80%;
+}
+#globalwrapper.template-listing-detail #portal-column-two .portletWrapper .portletAgentContact .portletItem{
+    padding-top: 0;
+}
+#globalwrapper.template-listing-detail #portal-column-two .portletWrapper .portletAgentContact .portletItem .rowlike .horizontal{
+    color: #FF8000;
+    padding-top: 0;
+}
+#globalwrapper.template-listing-detail #portal-column-two .portletWrapper .portletAgentContact .portletItem .rowlike .submit-widget{
+    color: #FF8000;
+}
+#globalwrapper.template-listing-detail #portal-column-two .portletWrapper .portletAgentInformation .portletHeader{
+    background-color: #E6E6E6;
+    border-bottom: 1px dashed #BDBDBD;
+    color: #FF8000;
+    font-size: 18px;
+    margin-left: 11px;
+    padding-top: 15px;
+    width: 80%;
+    font-weight: normal;
+}
+.template-listing-detail #content h1.documentFirstHeading{
+    border-bottom: 1px dashed #BDBDBD;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    color: #FF8000;
+    font-weight: normal;
+}
+.listing #listing-images #galleria{
+    border: 8px 8px 0 8px solid #FFFFFF;
+}
+#content .visualClear p{
+    padding-left: 0;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+#content .listing #listing-images{
+    background-color: #FFFFFF;
+}
+#content .listing #listing-images .galleria-container{
+    border: 0;
+}
+.agency_logo{
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 10px;
+}
+.portletAgentInformation h3{
+    color: #FF8000;
+    font-weight: normal;
+}
+.portletItem .contact_details dt{
+    color: #FF8000;
+}
+#portal-column-two div:last{
+    margin: 0;
 }
 #content .listing p{
     color: #FF8000;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 #listing-info h2{
     color: #FF8000;
     padding-bottom: 5px;
-}
-#portal-column-two .portletWrapper{
-    margin-top: 67px;
+    font-weight: normal;
 }
 .listing #listing-info dl.price{
     color: #FFFFFF;
-    background-color: #0B2161;
+    background-color: #6A8598;
     width: 87%;
-    padding-left: 20px;
 }
 .listing #listing-info .price dd{
-    text-align: right;
+    text-align: left;
     width: 48%;
 }
 .listing #listing-info dl.workflow{
@@ -287,10 +366,10 @@ img.image-left, img.image-right, .captioned img{
     color: #FF8000;
 }
 #content .listing .formTabs{
-    background-color: #0B4C5F;
+    background-color: #32546E;
 } 
 #content .listing .formTabs li a.selected{
-    background-color: #FF4000;
+    background-color: #FF6000;
 }
 #content .listing .formTabs li a.selected span{
     color: #000000;
@@ -299,18 +378,36 @@ img.image-left, img.image-right, .captioned img{
     color: #FFFFFF;
 }
 #listing-details .listing tbody tr th{
-    background-color: #FF4000;
+    background-color: #FF6000;
     color: #FFFFFF;
 }
 #listing-details .listing tbody tr td{
-    background-color: #CEE3F6;
+    background-color: #6A8598;
     color: #000000;
 }
-#portal-column-two .portletWrapper .portletAgentInformation{
-    background-color: #FBF2EF;
-}
 #portal-column-two .portletWrapper .portletAgentContact{
-    background-color: #FBF2EF;
+    background-color: #E6E6E6;
+}
+.listing #listing-info .price dt{
+    margin-right: 11%;
+}
+.template-folder_listing #listing-search #search-form #form .formTabs{
+    background-color: #32546E;
+}
+.template-folder_listing #listing-search #search-form #form .formTabs .formTab a.selected{
+    background-color: #FF8000;
+}
+.template-folder_listing #listing-search #search-form #form .formTabs .formTab a.selected span{
+    color: #000000;
+}
+.template-folder_listing #listing-search #search-form #form .formTabs .formTab a.selected span{
+    color: #000000;
+}
+.template-folder_listing #listing-search #search-form #form .formTabs .formTab a span{
+    color: #FFFFFF;
+}
+.template-folder_listing #listing-search #search-form #form .enableFormTabbing .formPanel .field label.horizontal{
+    display: none;
 }
 @media (min-width: 1200px){
     .userrole-anonymous #menu-bar-first{
@@ -364,6 +461,13 @@ img.image-left, img.image-right, .captioned img{
     }
     #doormat-container.columns-3 .doormatColumn.column-2{
         width: 27%;    
+    }
+    #globalwrapper #portal-column-two .portletWrapper .portletAgentInformation{
+    margin-top: 67px;
+    }
+    #content .listing{
+    padding-left: 30px;
+    padding-right: 23px;
     }
 }
 @media (min-width: 980px) and (max-width:1199px){
@@ -430,6 +534,17 @@ img.image-left, img.image-right, .captioned img{
     }
     #doormat-container.columns-3 .doormatColumn.column-2{
         width: 27%;    
+    }
+    #globalwrapper #portal-column-two .portletWrapper .portletAgentInformation{
+    margin-top: 67px;
+    }
+    .listing #listing-images{
+    width: 90.5%;
+    }
+    #content .listing{
+    padding-left: 30px;
+    padding-right: 23px;
+    width: 93%;
     }
 }
 @media (min-width: 768px) and (max-width: 979px){
@@ -503,6 +618,17 @@ img.image-left, img.image-right, .captioned img{
     #doormat-container.columns-3 .doormatColumn.column-2{
         width: 27%;    
     }
+    #globalwrapper #portal-column-two .portletWrapper .portletAgentInformation{
+    margin-top: 0;
+    }
+    .listing #listing-images{
+    width: 90%;
+    }
+    #content .listing{
+    padding-left: 30px;
+    padding-right: 17px;
+    width: 93%;
+    }
 }
 @media (min-width: 600px) and (max-width: 767px){
     #featurenavi li .text a{
@@ -569,6 +695,17 @@ img.image-left, img.image-right, .captioned img{
     }
     #doormat-container.columns-3 .doormatColumn.column-2{
         width: 22%;    
+    }
+    #globalwrapper #portal-column-two .portletWrapper .portletAgentInformation{
+    margin-top: 0;
+    }
+    .listing #listing-images{
+    width: 90%;
+    }
+    #content .listing{
+    padding-left: 30px;
+    padding-right: 23px;
+    width: 93%;
     }
 }
 @media (min-width: 460px) and (max-width: 599px){
@@ -652,6 +789,17 @@ img.image-left, img.image-right, .captioned img{
     #doormat-container.columns-3 .doormatColumn.column-2{
         width: 22%;    
     }
+    #globalwrapper #portal-column-two .portletWrapper .portletAgentInformation{
+    margin-top: 0;
+    }
+    .listing #listing-images{
+    width: 90%;
+    }
+    #content .listing{
+    padding-left: 30px;
+    padding-right: 23px;
+    width: 93%;
+    }
 }
 @media (max-width: 459px){
     #featurenavi li .text{
@@ -721,5 +869,16 @@ img.image-left, img.image-right, .captioned img{
         position: absolute;
         left: 2.4%;
         width: 221px;
+    }
+    #globalwrapper #portal-column-two .portletWrapper .portletAgentInformation{
+    margin-top: 0;
+    }
+    .listing #listing-images{
+    width: 90%;
+    }
+    #content .listing{
+    padding-left: 30px;
+    padding-right: 23px;
+    width: 93%;
     }
 }
