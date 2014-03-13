@@ -1,11 +1,7 @@
-.template-listing-detail #content{
-    border: 1px solid #c4c4c4;
-}
 #menu-bar-first #portal-languageselector .language-es a, #menu-bar-first #portal-languageselector .language-en a{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #848484;
-    margin-left: -21%;
 }
 #portal-personaltools dd a:hover{
     color: #000000;    
@@ -47,6 +43,11 @@ ul#portal-personaltools{
 ul#portal-languageselector, #portal-personaltools{
     float: left;
     width: auto;
+    left: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+    padding: 0;
+    right: 0;
 }
 #portal-personaltools{
     border-right: 1px solid #DF7401;
@@ -54,6 +55,8 @@ ul#portal-languageselector, #portal-personaltools{
     margin: auto;
     padding-bottom: 0;
     padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .template-folder_listing #featurenavi{
     display: none;
@@ -99,7 +102,7 @@ ul#portal-languageselector, #portal-personaltools{
 #portal-personaltools .actionMenuHeader #user-name{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #848484;
+    color: #848484
 }
 #menu-bar-first #portal-languageselector .language-en, #menu-bar-first #portal-languageselector .language-es{
     display: none;
@@ -198,7 +201,6 @@ ul#portal-languageselector, #portal-personaltools{
     float: right;
     left: -3%;
     position: relative;
-    width: 88%;
     border-bottom: 1px solid #000000;
 }
 #portal-siteactions{
@@ -249,6 +251,7 @@ img.image-left, img.image-right, .captioned img{
 } 
 #content .listing{
     background-color: #E6E6E6;
+    min-width: 220px;
 }
 .template-listing-detail #content .listing p a{
     
@@ -409,6 +412,9 @@ img.image-left, img.image-right, .captioned img{
 .template-folder_listing #listing-search #search-form #form .enableFormTabbing .formPanel .field label.horizontal{
     display: none;
 }
+.template-folder_listing .portletWrapper .portletQuickSearch .portletHeader{
+    margin-top: 22%;
+}
 @media (min-width: 1200px){
     .userrole-anonymous #menu-bar-first{
         position: absolute;
@@ -465,9 +471,14 @@ img.image-left, img.image-right, .captioned img{
     #globalwrapper #portal-column-two .portletWrapper .portletAgentInformation{
     margin-top: 67px;
     }
-    #content .listing{
+    .template-listing-detail #content .listing{
     padding-left: 30px;
     padding-right: 23px;
+    border: 1px solid #C4C4C4;
+    }
+    #doormat-container{
+    position: relative;
+    width: 88%;
     }
 }
 @media (min-width: 980px) and (max-width:1199px){
@@ -499,6 +510,8 @@ img.image-left, img.image-right, .captioned img{
         margin: auto;
         padding-bottom: 0;
         padding-top: 0;
+        margin-left: 15px;
+        float: left;
     }
     #portal-header #portal-languageselector .language-es a, #portal-header #portal-languageselector .language-en a{
         margin-left: -21%;
@@ -536,15 +549,21 @@ img.image-left, img.image-right, .captioned img{
         width: 27%;    
     }
     #globalwrapper #portal-column-two .portletWrapper .portletAgentInformation{
-    margin-top: 67px;
+        margin-top: 67px;
     }
     .listing #listing-images{
-    width: 90.5%;
+        width: 90.5%;
     }
-    #content .listing{
-    padding-left: 30px;
-    padding-right: 23px;
-    width: 93%;
+    .template-listing-detail #content .listing{
+        padding-left: 30px;
+        padding-right: 23px;
+        width: 93%;
+        border: 1px solid #C4C4C4;
+    }
+    #doormat-container{
+        position: relative;
+        width: 88%;
+        left: 0;
     }
 }
 @media (min-width: 768px) and (max-width: 979px){
@@ -568,6 +587,7 @@ img.image-left, img.image-right, .captioned img{
         margin: auto;
         padding-bottom: 0;
         padding-top: 0;
+        margin-left: 15px;
         float: left;
     }
     #menu-bar-first{
@@ -624,10 +644,15 @@ img.image-left, img.image-right, .captioned img{
     .listing #listing-images{
     width: 90%;
     }
-    #content .listing{
+    .template-listing-detail #content .listing{
     padding-left: 30px;
-    padding-right: 17px;
-    width: 93%;
+    padding-right: 23px;
+    border: 1px solid #C4C4C4;
+    }
+    #doormat-container{
+        position: relative;
+        width: 88%;
+        left: 0;
     }
 }
 @media (min-width: 600px) and (max-width: 767px){
@@ -653,6 +678,8 @@ img.image-left, img.image-right, .captioned img{
         margin: auto;
         padding-bottom: 0;
         padding-top: 0;
+        margin-left: 15px;
+        float: left;
     }
     #menu-bar-first{
         left: 23.4%;
@@ -697,15 +724,20 @@ img.image-left, img.image-right, .captioned img{
         width: 22%;    
     }
     #globalwrapper #portal-column-two .portletWrapper .portletAgentInformation{
-    margin-top: 0;
+        margin-top: 0;
     }
     .listing #listing-images{
-    width: 90%;
+        width: 90%;
     }
-    #content .listing{
-    padding-left: 30px;
-    padding-right: 23px;
-    width: 93%;
+    .template-listing-detail #content .listing{
+        padding-left: 30px;
+        padding-right: 23px;
+        border: 1px solid #C4C4C4;
+    }
+    #doormat-container{
+        position: relative;
+        width: 88%;
+        left: 0;
     }
 }
 @media (min-width: 460px) and (max-width: 599px){
@@ -727,11 +759,6 @@ img.image-left, img.image-right, .captioned img{
         padding-top: 0;
         min-width: 53px;
     }
-    ul#portal-languageselector{
-        margin: auto;
-        padding-bottom: 0;
-        padding-top: 0;
-    }
     #portal-personaltools{
         border-radius: 0;
         border-right: 1px solid #DF7401;
@@ -744,6 +771,8 @@ img.image-left, img.image-right, .captioned img{
         margin: auto;
         padding-bottom: 0;
         padding-top: 0;
+        margin-left: 15px;
+        float: left;
     }
     #menu-bar-first{
         left: 11.4%;
@@ -786,19 +815,38 @@ img.image-left, img.image-right, .captioned img{
         margin-bottom: 1.5%;
         margin-top: 1%;
     }
-    #doormat-container.columns-3 .doormatColumn.column-2{
-        width: 22%;    
-    }
     #globalwrapper #portal-column-two .portletWrapper .portletAgentInformation{
-    margin-top: 0;
+        margin-top: 0;
     }
     .listing #listing-images{
-    width: 90%;
+        width: 90%;
     }
-    #content .listing{
-    padding-left: 30px;
-    padding-right: 23px;
-    width: 93%;
+    .template-listing-detail #content .listing{
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1px solid #C4C4C4;
+    }
+    #doormat-container{
+        position: relative;
+        width: 88%;
+    }
+    #doormat-container.columns-3 .doormatColumn.column-0{
+        width: 44%;
+    }
+    #doormat-container.columns-3 .doormatColumn.column-1{
+        width: 44%;
+    }
+    #doormat-container.columns-3 .doormatColumn.column-2{
+        width: 84%;  
+        margin-top: -30px;
+    }
+    .doormatSection .doormatSectionBody p img[title="twitter.png"]{
+        margin: 0 0 0 10px;
+    }
+    .doormatSection .doormatSectionBody p img[title="facebook.png"]{
+        bottom: 0;
+        margin: 0;
+        top: 0;
     }
 }
 @media (max-width: 459px){
@@ -814,6 +862,9 @@ img.image-left, img.image-right, .captioned img{
     }
     #logo-banner span{
         display: none;
+    }
+    #featurenavi{
+        margin-left: 5px;
     }
     #featurenavi li .text a{
         width: 100%;
@@ -834,36 +885,45 @@ img.image-left, img.image-right, .captioned img{
         width: 100% !important;
     }
     #portal-siteactions{
-        left: 5.8%;
+        left: -3%;
         width: 85%;
         top: 98.0%;
     }
     #portal-colophon a{
         margin-bottom: 20.5%;
         margin-top: 1%;
-        margin-left: 8%;
-    }
-    #doormat-container.columns-3 .doormatColumn.column-2{
-        width: 19%;    
+        margin-left: -2%;
+        width: 95%;
     }
     #portal-personaltools{
         border-radius: 0;
         border-right: 1px solid #DF7401;
-        margin: auto auto auto 2%;
         padding-bottom: 0;
         padding-top: 0;
         min-width: 53px;
+        margin-left: -5px;
+        margin-right: -5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .userrole-anonymous ul#portal-languageselector{
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+        padding-left: 6px;
     }
     ul#portal-languageselector{
         margin: auto;
         padding-bottom: 0;
         padding-top: 0;
+        margin-left: 15px;
+        float: left;
     }
     #menu-bar-first{
         left: -1.6%;
         position: absolute;
         top: 1.9%;
-        width: 239px;
+        width: 223px;
     }
     .userrole-anonymous #menu-bar-first{
         position: absolute;
@@ -871,14 +931,61 @@ img.image-left, img.image-right, .captioned img{
         width: 221px;
     }
     #globalwrapper #portal-column-two .portletWrapper .portletAgentInformation{
-    margin-top: 0;
+        margin-top: 0;
     }
     .listing #listing-images{
-    width: 90%;
+        width: 90%;
     }
-    #content .listing{
-    padding-left: 30px;
-    padding-right: 23px;
-    width: 93%;
+    .template-listing-detail #content .listing{
+        border: 1px solid #C4C4C4;
+        min-width: 220px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .portletAgentContact .textarea-widget{
+        width: 191px;
+    }
+    #content{
+        margin-left: 0 !important;    
+    }
+    #content .listing #listing-images{
+        height: inherit !important;
+        min-height: 220px;
+        left: 0;
+        right: 0;
+        width: 99.1%;
+    }
+    #content .galleria-container{
+        height: auto !important;
+    }
+    #content #listing-info{
+        margin-top: 369px;
+    }
+        #doormat-container{
+        position: relative;
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+    #doormat-container.columns-3 .doormatColumn.column-0{
+        width: 41.5%;
+    }
+    #doormat-container.columns-3 .doormatColumn.column-1{
+        width: 41.5%;
+    }
+    #doormat-container.columns-3 .doormatColumn.column-2{
+        width: 94%;  
+        margin-top: -30px;
+    }
+    .doormatSection .doormatSectionBody p img[title="twitter.png"]{
+        margin: 0 0 0 10px;
+    }
+    .doormatSection .doormatSectionBody p img[title="facebook.png"]{
+        bottom: 0;
+        margin: 0;
+        top: 0;
+    }
+    #doormat-container .column-2 .doormatSectionBody:last-child p{
+        margin-left: -43px;
     }
 }
