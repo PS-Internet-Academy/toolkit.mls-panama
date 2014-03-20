@@ -3,6 +3,107 @@
     font-size: 16px;
     color: #848484;
 }
+.site-en #menu-bar-first .login-es, .site-en #menu-bar-first .sign-up-es, .site-es #menu-bar-first .login, .site-es #menu-bar-first .sign-up{
+    display: none;
+}
+#portal-column-one{
+
+}
+#portal-columns #portal-column-two{
+    margin-top: 67px;
+}
+#portal-column-two .portletQuickSearch .portletItem{
+    background-color: #E6E6E6;
+    box-shadow: 3px 6px 5px #E2E2E2;
+
+}
+.portlet .portletItem thead{
+
+}
+#globalwrapper #portal-column-two .portletQuickSearch .portletHeader{
+    color: #FF8000;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding: 0;
+}
+.portletQuickSearch #form-widgets-location_city, .portletQuickSearch #form-widgets-price_min, .portletQuickSearch #form-widgets-price_max, .portletQuickSearch #form-widgets-location_state, .portletQuickSearch #form-widgets-beds-min, .portletQuickSearch #form-widgets-beds-max, .portletQuickSearch #form-widgets-baths-min, .portletQuickSearch #form-widgets-baths-max, .portletQuickSearch #form-widgets-lot_size-min, .portletQuickSearch #form-widgets-lot_size-max, .portletQuickSearch #form-widgets-interior_area-min, .portletQuickSearch #form-widgets-interior_area-max{
+    background-color: #E6E6E6;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    box-shadow: 0 1px 9px #BDBDBD;
+    color: #808080;
+}
+.portletQuickSearch #form-widgets-lot_size-max, .portletQuickSearch #form-widgets-interior_area-max, .portletQuickSearch #form-widgets-baths-max, .portletQuickSearch #form-widgets-beds-max{
+    float: right;
+}
+.portletQuickSearch .formControls #form-buttons-search {
+    color: #FF8000;
+    font-family: Lemon;
+    font-weight: bold;
+    width: 100px;
+    box-shadow: 0 1px 9px #BDBDBD;
+}
+label.horizontal{
+    font-size: 11px;
+    font-family: roboto;
+    font-weight: normal;
+}
+.portletQuickSearch #form-widgets-interior_area-min, .portletQuickSearch #form-widgets-lot_size-min, .portletQuickSearch #form-widgets-baths-min, .portletQuickSearch #formfield-form-widgets-price_min, .portletQuickSearch #form-widgets-beds-min{
+    width: 46%;
+}
+.portletNavigationTree{
+    background-color: #E6E6E6;
+    border-radius: 0;
+    box-shadow: 3px 6px 5px #E2E2E2;
+}
+.portletNavigationTree .portletHeader .tile{
+    font-family: roboto;
+    font-size: 11px;
+    font-weight: normal;
+    padding-left: 15px;
+}
+.portletCalendar{
+    background-color: #E6E6E6;
+    border-radius: 0;
+}
+.portletNews{
+    background-color: #E6E6E6;
+    border-radius: 0;
+    margin-top: -3px;
+}
+.portletNews .portletHeader tile{
+    margin-left: 10px;
+}
+.portletNavigationTree .hiddenStructure{
+    margin-left: 0;
+}
+#portal-column-one .portletWrapper .portlet{
+    border-radius: 0;
+    margin-top: 3px;
+}
+#portal-column-two .portletQuickSearch .portletItem #form .option{
+    float: left;
+    width: 48%;
+}
+.portlet .separator{
+    display: none;
+}
+#portal-column-two .portlet .portletItem .form-row-listing-type #formfield-form-widgets-listing_type .horizontal{
+    display: none;
+}
+#globalwrapper .portletQuickSearch .portletHeader{
+    background-color: transparent;
+}
+#portal-column-one{
+    margin-top: 67px;
+}
+.carousel-banners .carousel-text{
+    display: none;
+}
+#recent-listings .tileHeadline a{
+    color: #FF8000;
+}
 #portal-personaltools dd a:hover{
     color: #000000;    
 }
@@ -13,13 +114,19 @@ ul#portal-personaltools{
     font-size: 36px;
     margin-left: -0.7%;
     font-family: 'Roboto', sans-serif;
+    color: #000000;
 }
-.portaltype-document #featurenavi{
+.section-front-page #featurenavi{
+    position: absolute;
+    top: 569px;
     height: 27%;
     margin: 0 auto;
-    position: absolute;
     width: 100%;
     left: 2%;
+    display: block;
+}
+#featurenavi{
+    display: none;
 }
 .userrole-anonymous ul#portal-languageselector{
     margin-bottom: 0;
@@ -58,18 +165,12 @@ ul#portal-languageselector, #portal-personaltools{
     padding-left: 10px;
     padding-right: 10px;
 }
-.template-folder_listing #featurenavi{
-    display: none;
-}
-.template-overview-controlpanel #featurenavi{
-    display: none;
-}
 .userrole-anonymous #menu-bar-first{
     position: absolute;
     top: 2%;
     z-index: 5; 
 }
-#menu-bar-first a.login{
+#menu-bar-first a.login, #menu-bar-first a.login-es{
     float: left;
     margin-top: -1px;
     color: #848484;
@@ -78,7 +179,7 @@ ul#portal-languageselector, #portal-personaltools{
     border-right: 1px solid #DF7401;
     padding: 0 10px 0 10px;
 }
-#menu-bar-first a.sign-up{
+#menu-bar-first a.sign-up, #menu-bar-first a.sign-up-es{
     float: left;
     margin-top: -1px;
     color: #848484;
@@ -113,8 +214,9 @@ ul#portal-languageselector, #portal-personaltools{
 #navibar{
     border-bottom: 1px solid #DF7401;
     position: relative;
+    width: 80.5%;
 }
-#featurenavi li{  
+.section-front-page #featurenavi li{  
     float: left;
     height: 100%;
     background-image: linear-gradient(#E1E0DE, #DEDEDB, #959593);
@@ -122,10 +224,10 @@ ul#portal-languageselector, #portal-personaltools{
     padding-top: 4px;
     text-align: -moz-center;
 }
-#featurenavi li .text{
+.section-front-page #featurenavi li .text{
     text-align: center;
 }
-#featurenavi li .text a{
+.section-front-page #featurenavi li .text a{
     color: #000000;
     font-family: 'Quattrocento',serif;
 }
@@ -415,6 +517,37 @@ img.image-left, img.image-right, .captioned img{
 .template-folder_listing .portletWrapper .portletQuickSearch .portletHeader{
     margin-top: 22%;
 }
+#parent-fieldname-description{
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: justify;
+}
+#parent-fieldname-text p{
+    text-align: justify;
+}
+.portletQuickSearch select#form-widgets-interior_area-max:focus, .portletQuickSearch select#form-widgets-interior_area-min:focus, .portletQuickSearch select#form-widgets-lot_size-max:focus, .portletQuickSearch select#form-widgets-lot_size-min:focus, .portletQuickSearch select#form-widgets-baths-max:focus, .portletQuickSearch select#form-widgets-baths-min:focus, .portletQuickSearch select#form-widgets-beds-max:focus, .portletQuickSearch select#form-widgets-beds-min:focus, .portletQuickSearch select#form-widgets-location_state:focus, .portletQuickSearch input#form-widgets-location_city:focus, .portletQuickSearch input#form-widgets-price_min:focus, .portletQuickSearch input#form-widgets-price_max:focus{
+    background-color: #FFFFFF;
+}
+.portletNavigationTree dt.portletHeader{
+    padding-left: 0;
+}
+.portletNews .portletHeader{
+    line-height: 36px;
+    padding-left: 10px;
+    font-family: roboto;
+    font-size: 11px;
+}
+.portletNavigationTree .portletItem span{
+    color: #000000;
+    font-size: 12px;
+}
+.pb-ajax{
+    background: #FFFFFF;
+}
+#listing-collection .tileHeadline a.summary{
+    color: #FF8000;
+}
 @media (min-width: 1200px){
     .userrole-anonymous #menu-bar-first{
         position: absolute;
@@ -435,16 +568,12 @@ img.image-left, img.image-right, .captioned img{
     #portal-header #portal-languageselector .language-es a, #portal-header #portal-languageselector .language-en a{
         margin-left: -21%;
     }
-    #featurenavi li .text a{
+    .section-front-page #featurenavi li .text a{
         width: 100%;
         line-height: 41px;
     }
-    #featurenavi li{
+    .section-front-page #featurenavi li{
         width: 19%;
-    }
-    .portaltype-document #featurenavi{
-        position: absolute;
-        top: 569px;
     }
     #box .carousel .carousel-banners, .carousel-banner, .carousel-banner img{
         width: 100% !important;
@@ -468,9 +597,6 @@ img.image-left, img.image-right, .captioned img{
     #doormat-container.columns-3 .doormatColumn.column-2{
         width: 27%;    
     }
-    #globalwrapper #portal-column-two .portletWrapper .portletAgentInformation{
-    margin-top: 67px;
-    }
     .template-listing-detail #content .listing{
     padding-left: 30px;
     padding-right: 23px;
@@ -478,7 +604,19 @@ img.image-left, img.image-right, .captioned img{
     }
     #doormat-container{
     position: relative;
-    width: 88%;
+        width: 88%;
+    }
+    .portletQuickSearch #form-widgets-price_min{
+        width: 141px;
+    }
+    .portletQuickSearch #form-widgets-price_max{
+        width: 141px;
+     }
+    .portletQuickSearch #formfield-form-widgets-price_min{
+        margin-right: 7%;
+    }
+    #globalwrapper .portletQuickSearch{
+    margin-top: -32px;
     }
 }
 @media (min-width: 980px) and (max-width:1199px){
@@ -516,14 +654,14 @@ img.image-left, img.image-right, .captioned img{
     #portal-header #portal-languageselector .language-es a, #portal-header #portal-languageselector .language-en a{
         margin-left: -21%;
     }
-    #featurenavi li .text a{
+    .section-front-page #featurenavi li .text a{
         width: 100%;
         line-height: 41px;
     }
-    #featurenavi li{
+    .section-front-page #featurenavi li{
         width: 19%;
     }
-    .portaltype-document #featurenavi{
+    .section-front-page #featurenavi{
         position: absolute;
         top: 566px;
     }
@@ -567,11 +705,11 @@ img.image-left, img.image-right, .captioned img{
     }
 }
 @media (min-width: 768px) and (max-width: 979px){
-    #featurenavi li .text a{
+    .section-front-page #featurenavi li .text a{
         width: 100%;
         line-height: 41px;
     }
-    #featurenavi li{
+    .section-front-page #featurenavi li{
         width: 19%;
     }
     #portal-personaltools{
@@ -606,14 +744,14 @@ img.image-left, img.image-right, .captioned img{
     #portal-header #portal-languageselector .language-es a, #portal-header #portal-languageselector .language-en a{
         margin-left: -21%;
     }
-    #featurenavi li .text a{
+    .section-front-page #featurenavi li .text a{
         width: 100%;
         line-height: 41px;
     }
-    #featurenavi li{
+    .section-front-page #featurenavi li{
         width: 19%;
     }
-    .portaltype-document #featurenavi{
+    .section-front-page #featurenavi{
         position: absolute;
         top: 586px;
     }
@@ -656,11 +794,11 @@ img.image-left, img.image-right, .captioned img{
     }
 }
 @media (min-width: 600px) and (max-width: 767px){
-    #featurenavi li .text a{
+    .section-front-page #featurenavi li .text a{
         width: 100%;
         line-height: 25px;
     }
-    #featurenavi li{
+    .section-front-page #featurenavi li{
         width: 19%;
     }
     #portal-personaltools{
@@ -671,7 +809,7 @@ img.image-left, img.image-right, .captioned img{
         padding-top: 0;
         min-width: 53px;
     }
-    #featurenavi li .text{
+    .section-front-page #featurenavi li .text{
         max-width: 77px;
     }
     ul#portal-languageselector{
@@ -697,11 +835,11 @@ img.image-left, img.image-right, .captioned img{
     #portal-header #portal-languageselector .language-es a, #portal-header #portal-languageselector .language-en a{
         margin-left: -21%;
     }
-    #featurenavi li .text a{
+    .section-front-page #featurenavi li .text a{
         width: 100%;
         line-height: 17px;
     }
-    .portaltype-document #featurenavi{
+    .section-front-page #featurenavi{
         position: absolute;
         top: 585px;
     }
@@ -741,14 +879,14 @@ img.image-left, img.image-right, .captioned img{
     }
 }
 @media (min-width: 460px) and (max-width: 599px){
-     #featurenavi li .text a{
+     .section-front-page #featurenavi li .text a{
         width: 100%;
         line-height: 17px;
     }
-    #featurenavi li .text{
+    .section-front-page #featurenavi li .text{
         max-width: 77px;
     }
-    #featurenavi li{
+    .section-front-page #featurenavi li{
         width: 19%;
     }
     #portal-personaltools{
@@ -793,10 +931,10 @@ img.image-left, img.image-right, .captioned img{
     #portal-header #portal-languageselector .language-es a, #portal-header #portal-languageselector .language-en a{
         margin-left: -21%;
     }
-    #featurenavi li .text a{
+    .section-front-page #featurenavi li .text a{
         width: 100%
     }
-    .portaltype-document #featurenavi{
+    .section-front-page #featurenavi{
         position: absolute;
         top: 584px;
     }
@@ -850,7 +988,7 @@ img.image-left, img.image-right, .captioned img{
     }
 }
 @media (max-width: 459px){
-    #featurenavi li .text{
+    .section-front-page #featurenavi li .text{
         max-width: 72px;
     }
     #portal-header #portal-logo img{
@@ -863,18 +1001,18 @@ img.image-left, img.image-right, .captioned img{
     #logo-banner span{
         display: none;
     }
-    #featurenavi{
+    .section-front-page #featurenavi{
         margin-left: 5px;
     }
-    #featurenavi li .text a{
+    .section-front-page #featurenavi li .text a{
         width: 100%;
         line-height: 20px;
         font-size: 12px;
     }
-    #featurenavi li{
+    .section-front-page #featurenavi li{
         width: 32%;
     }
-    .portaltype-document #featurenavi{
+    .section-front-page #featurenavi{
         width: 96%;
         margin-right: 2%;
         margin-left : 2%;
@@ -987,5 +1125,8 @@ img.image-left, img.image-right, .captioned img{
     }
     #doormat-container .column-2 .doormatSectionBody:last-child p{
         margin-left: -43px;
+    }
+    .listing-summary #search-form form span.option{
+        width: 88%;
     }
 }
